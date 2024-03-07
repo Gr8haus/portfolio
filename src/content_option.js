@@ -1,144 +1,153 @@
-const logotext = "JOHN";
+const logotext = "GARRY";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Garry Greathouse",
+    description: "I’m Garry Greathouse former Marine _ Full stack devloper, currently seeking employment opportunities",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Garry Greathouse",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Ohio Native, San Diego Local",
+        second: "Well-Traveled Adventurer",
+        third: "Tech Enthusiast",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "USMC Veteran | Full-Stack Web Developer @ Learn Academy | Passionate about Bridging Military Leadership with Tech Expertise",
+    your_img_url: require("./assets/images/img.png"),
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about myself",
+    aboutme: "I'm Garry, a former US Marine and defense contracting specialist at General Atomics. I am currently transitioning into the tech industry as a full-stack web developer. My education at Learn Academy has equipped me with over 640 hours of experience in various coding languages, while developing multiple diverse projects. My blend of military precision, adaptability, and tech expertise positions me uniquely to contribute to projects where clear goals, high standards, and innovative solutions are sought. My passion for creating a safer world and my experience in implementing software and establishing procedures drive my commitment to excellence and integrity in the tech field, where I aim to bridge military leadership with cutting-edge technology to make impactful contributions.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Student",
+        where: "LEARN Academy",
+        date: "2023/2024",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Materials Control Specialist III",
+        where: "General Atomics Aeronautical Systems",
+        date: "2015/2018",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Business Management",
+        where: "University of Phoenix",
+        date: "2015/2018",
+    },
+    {
+        jobtitle: "Infantry Squad Leader",
+        where: "United States Marine Corps",
+        date: "2007/2014",
     },
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
+        name: "HTML",
+        value: 100,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "CSS",
+        value: 100,
     },
     {
-        name: "Javascript",
-        value: 80,
+        name: "Ruby",
+        value: 100,
+    },
+    {
+        name: "Rails",
+        value: 100,
+    },
+    {
+        name: "JavaScript",
+        value: 100,
     },
     {
         name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
+        value: 100,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Full-Stack Web Development",
+        description: "Bringing military-honed mission planning and leadership skills to the forefront of full-stack web development, I merge SAFe Lean-Agile principles with expertise in HTML, CSS, Ruby on Rails, JavaScript, and React to deliver seamless, innovative solutions.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Tech Leadership",
+        description: "Leveraging seven years of military experience in project management and training, alongside a deep understanding of SAFe Lean-Agile principles, I lead teams in executing high-impact projects with precision and excellence in full-stack web development.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Strategic Web Solutions",
+        description: "Drawing on a robust background in mission planning and project management, coupled with a mastery of HTML, CSS, Ruby on Rails, JavaScript, and React, I architect strategic web solutions that blend military precision with cutting-edge technology.",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: require("./assets/images/cattinder.png"),
+        description: "the ultimate cat-ting edge technology in feline matchmaking.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: require("./assets/images/tictac.png"),
+        description: "A fun and fully functional game for all ages.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: require("./assets/images/bricks.png"),
+        description: "The future of luxury living is made with bricks.",
         link: "#",
     },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    // {
+    //     img: "https://picsum.photos/400/600/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/300/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/700/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    // {
+    //     img: "https://picsum.photos/400/600/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/300/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/550/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/700/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "garry.greathouse@gmail.com",
+    YOUR_FONE: "(619)251-6878",
+    description: "Feel free to reach out to me via email or phone with any inquiries, questions, or possible collaboration opportunities. I'd love to hear from you and discuss how I can assist you further.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +156,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/Gr8haus",
+    // facebook: "https://facebook.com",
+    linkedin: "https://www.linkedin.com/in/garry-greathouse/",
+    // twitter: "https://twitter.com",
 };
 export {
     meta,
