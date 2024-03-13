@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import * as emailjs from "emailjs-com";
-import "./style.css";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import { meta } from "../../content_option";
-import { Container, Row, Col, Alert } from "react-bootstrap";
-import { contactConfig } from "../../content_option";
+import React, { useState } from "react"
+import * as emailjs from "emailjs-com"
+import "./style.css"
+import { Helmet, HelmetProvider } from "react-helmet-async"
+import { meta } from "../../content_option"
+import { Container, Row, Col, Alert } from "react-bootstrap"
+import { contactConfig } from "../../content_option"
 
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
@@ -15,18 +15,18 @@ export const ContactUs = () => {
     show: false,
     alertmessage: "",
     variant: "",
-  });
+  })
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    setFormdata({ loading: true });
+    e.preventDefault()
+    setFormdata({ loading: true })
 
     const templateParams = {
       from_name: formData.email,
       user_name: formData.name,
       to_name: contactConfig.YOUR_EMAIL,
       message: formData.message,
-    };
+    }
 
     emailjs
       .send(
@@ -37,32 +37,32 @@ export const ContactUs = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          console.log(result.text)
           setFormdata({
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage: "SUCCESS! Thank you for reaching out. I look forward to speaking with you soon",
             variant: "success",
             show: true,
-          });
+          })
         },
         (error) => {
-          console.log(error.text);
+          console.log(error.text)
           setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
+            alertmessage: `Failed to send!,${error.text}`,
             variant: "danger",
             show: true,
-          });
-          document.getElementsByClassName("co_alert")[0].scrollIntoView();
+          })
+          document.getElementsByClassName("co_alert")[0].scrollIntoView()
         }
-      );
-  };
+      )
+  }
 
   const handleChange = (e) => {
     setFormdata({
       ...formData,
       [e.target.name]: e.target.value,
-    });
-  };
+    })
+  }
 
   return (
     <HelmetProvider>
@@ -163,5 +163,5 @@ export const ContactUs = () => {
       </Container>
       <div className={formData.loading ? "loading-bar" : "d-none"}></div>
     </HelmetProvider>
-  );
-};
+  )
+}
