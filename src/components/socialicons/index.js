@@ -1,5 +1,5 @@
-import React from "react";
-import "./style.css";
+import React from "react"
+import "./style.css"
 import {
   FaGithub,
   FaTwitter,
@@ -7,8 +7,8 @@ import {
   FaLinkedin,
   FaYoutube,
   FaTwitch,
-} from "react-icons/fa";
-import { socialprofils } from "../../content_option";
+} from "react-icons/fa"
+import { socialprofils } from "../../content_option"
 
 export const Socialicons = (params) => {
   return (
@@ -59,5 +59,5 @@ export const Socialicons = (params) => {
       </ul>
       <p>Follow Me</p>
     </div>
-  );
-};
+  )
+}

@@ -1,14 +1,14 @@
-import React from "react";
-import "./style.css";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import { Container, Row, Col } from "react-bootstrap";
+import React from "react"
+import "./style.css"
+import { Helmet, HelmetProvider } from "react-helmet-async"
+import { Container, Row, Col } from "react-bootstrap"
 import {
   dataabout,
   meta,
   worktimeline,
   skills,
   services,
-} from "../../content_option";
+} from "../../content_option"
 
 export const About = () => {
   return (
@@ -73,7 +73,7 @@ export const About = () => {
                       <td>{data.where}</td>
                       <td>{data.date}</td>
                     </tr>
-                  );
+                  )
                 })}
               </tbody>
             </table>
@@ -90,11 +90,11 @@ export const About = () => {
                   <h5 className="service__title">{data.title}</h5>
                   <p className="service_desc">{data.description}</p>
                 </div>
-              );
+              )
             })}
           </Col>
         </Row>
       </Container>
     </HelmetProvider>
-  );
-};
+  )
+}

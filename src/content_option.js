@@ -1,7 +1,7 @@
 const logotext = "GREATHOUSE"
 const meta = {
     title: "Welcome to my Portfolio",
-    description: "I’m Garry Greathouse, Full stack devloper _ Former Marine, currently seeking employment opportunities",
+    description: "I’m Garry Greathouse, Full stack developer _ Former Marine, currently seeking employment opportunities",
 }
 
 const introdata = {
@@ -11,7 +11,7 @@ const introdata = {
         second: "Tech Enthusiast",
         third: "Ohio Native, San Diego Local",
     },
-    description: "Full-Stack Web Developer @ Learn Academy | USMC Veteran |  Passionate about Bridging Military Leadership with Tech Expertise",
+    description: "Full-Stack Web Developer | USMC Veteran |  Passionate about Bridging Military Leadership with Tech Expertise",
     your_img_url: require("./assets/images/img.png"),
 }
 

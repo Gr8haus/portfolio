@@ -1,8 +1,8 @@
-import React from "react";
-import "./style.css";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import { Container, Row, Col } from "react-bootstrap";
-import { dataportfolio, meta } from "../../content_option";
+import React from "react"
+import "./style.css"
+import { Helmet, HelmetProvider } from "react-helmet-async"
+import { Container, Row, Col } from "react-bootstrap"
+import { dataportfolio, meta } from "../../content_option"
 
 export const Portfolio = () => {
   return (
@@ -29,10 +29,10 @@ export const Portfolio = () => {
                   <a href={data.link}>view project</a>
                 </div>
               </div>
-            );
+            )
           })}
         </div>
       </Container>
     </HelmetProvider>
-  );
-};
+  )
+}
